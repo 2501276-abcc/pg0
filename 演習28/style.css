@@ -1,0 +1,153 @@
+body{
+    background-image: url(image/umi.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+#items{
+    background-color: #4A4747;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#items ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#items a{
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#items a:hover{
+    background-color: #9B9595;
+}
+
+.content{
+    margin-bottom: 20px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.profile{
+    padding: 20px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 70px;
+}
+
+.image{
+    margin-left: 300px;
+}
+
+img{
+    margin-top: 5.5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.kubota{
+    color: #3cb371;
+    margin-bottom: 30px;
+}
+
+.city{
+    background-color: #CCFFFF;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.city2{
+    background-color: #D0B0FF;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.citysub h2{
+    margin-left: 200px;
+}
+
+.city img{
+    width: 20%;
+}
+
+.city2 img{
+    width: 20%;
+}
+
+.shumimain{
+    background-color: #F0F8FF;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.shumimain img{
+    width: 20%;
+}
+
+.shumi2{
+    background-color: #F0FFFF;
+    display: flex;
+}
+
+.shumi2 img{
+    width: 20%;
+}
+
+.animemain{
+    background-color: #77EEFF;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.animemain img{
+    width: 20%;
+}
+
+.kunimain{
+    background-color: #DCC2FF;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.kunimain img{
+    width: 20%;
+}
+
+.kuni2{
+    background-color: #A4C6FF;
+    display: flex;
+}
+
+.kuni2 img{
+    width: 20%;
+}
+
+.natumain{
+    background-color: #FFD5EC;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.natumain img{
+    width: 20%;
+}
+
+.natu2{
+    background-color: #FFDBC9;
+    display: flex;
+}
+
+.natu2 img{
+    width: 20%;
+}
