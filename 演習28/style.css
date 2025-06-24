@@ -1,9 +1,19 @@
 body{
-    background-image: url(image/umi.webp);
+    background-image: url(image/karsten-winegeart--hSZ8CDCo4Q-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
+    animation: fade 1.5s ease-in;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 #items{
@@ -57,21 +67,18 @@ h1{
     text-align: center;
 }
 
-.kubota{
-    color: #3cb371;
-    margin-bottom: 30px;
-}
-
 .city{
     background-color: #CCFFFF;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .city2{
     background-color: #D0B0FF;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .citysub h2{
@@ -90,6 +97,7 @@ h1{
     background-color: #F0F8FF;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .shumimain img{
@@ -99,6 +107,7 @@ h1{
 .shumi2{
     background-color: #F0FFFF;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .shumi2 img{
@@ -109,6 +118,7 @@ h1{
     background-color: #77EEFF;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .animemain img{
@@ -119,6 +129,7 @@ h1{
     background-color: #DCC2FF;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .kunimain img{
@@ -128,6 +139,7 @@ h1{
 .kuni2{
     background-color: #A4C6FF;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .kuni2 img{
@@ -138,6 +150,7 @@ h1{
     background-color: #FFD5EC;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .natumain img{
@@ -147,6 +160,7 @@ h1{
 .natu2{
     background-color: #FFDBC9;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .natu2 img{
