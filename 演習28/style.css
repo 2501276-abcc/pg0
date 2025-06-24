@@ -17,7 +17,7 @@ body{
 }
 
 #items{
-    background-color: #4A4747;
+    background-color: #808080;
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
@@ -68,14 +68,12 @@ h1{
 }
 
 .city{
-    background-color: #CCFFFF;
     margin-bottom: 20px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .city2{
-    background-color: #D0B0FF;
     margin-bottom: 20px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -94,7 +92,6 @@ h1{
 }
 
 .shumimain{
-    background-color: #F0F8FF;
     margin-bottom: 20px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -105,7 +102,6 @@ h1{
 }
 
 .shumi2{
-    background-color: #F0FFFF;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -115,7 +111,6 @@ h1{
 }
 
 .animemain{
-    background-color: #77EEFF;
     margin-bottom: 20px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -126,7 +121,6 @@ h1{
 }
 
 .kunimain{
-    background-color: #DCC2FF;
     margin-bottom: 20px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -137,7 +131,6 @@ h1{
 }
 
 .kuni2{
-    background-color: #A4C6FF;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -147,7 +140,6 @@ h1{
 }
 
 .natumain{
-    background-color: #FFD5EC;
     margin-bottom: 20px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -158,7 +150,6 @@ h1{
 }
 
 .natu2{
-    background-color: #FFDBC9;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
