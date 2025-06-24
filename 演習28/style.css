@@ -4,13 +4,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
-    animation: fade 1.5s ease-in;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
 }
 
-@keyframes fade{
-    from{
-        opacity: 0;
-    }
+@keyframes fadeIn{
     to{
         opacity: 1;
     }
@@ -49,23 +47,17 @@ body{
 }
 
 .profile{
-    padding: 20px;
     text-align: center;
-    margin-right: 40px;
-    margin-left: 70px;
 }
 
 .image{
-    margin-left: 300px;
+    text-align: center;
 }
 
 img{
     margin-top: 5.5px;
 }
 
-h1{
-    text-align: center;
-}
 
 .city{
     margin-bottom: 20px;
@@ -118,6 +110,10 @@ h1{
 
 .animemain img{
     width: 20%;
+}
+
+.animesub{
+    margin-top: 30px;
 }
 
 .kunimain{
